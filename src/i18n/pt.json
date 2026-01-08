@@ -1,0 +1,59 @@
+{
+    "hero.name": "Cirilo Silva",
+    "hero.title": "Desenvolvedor Full Stack",
+    "hero.subtitle": "Construindo soluções digitais modernas, acessíveis e bem estruturadas.",
+    "hero.projects": "Ver Projetos",
+    "hero.github": "GitHub",
+
+    "about": {
+    "title": "Sobre mim",
+    "text": "Sou estudante de Sistemas de Informação e desenvolvedor Full Stack, com experiência em projetos acadêmicos, institucionais e pessoais. Tenho foco em criar aplicações web modernas, acessíveis e bem estruturadas, valorizando código limpo, organização e uma experiência de uso consistente. Gosto de entender o problema antes de escrever código, buscando soluções simples, escaláveis e fáceis de manter.",
+    "highlights": {
+        "mindset": {
+        "title": "Mentalidade",
+        "text": "Valorizo código limpo, organização e boas práticas acima de soluções rápidas e pouco sustentáveis."
+        },
+        "stack": {
+        "title": "Stack",
+        "text": "Tenho experiência prática no desenvolvimento de aplicações web utilizando React e Node.js, mas também possuo experiência profissional com PHP e Vue.js, trabalhando com APIs REST e bancos de dados relacionais, sempre focando em código limpo, escalável e bem estruturado."
+        },
+        "goal": {
+        "title": "Objetivo",
+        "text": "Evoluir continuamente como desenvolvedor e atuar em projetos que gerem impacto real."
+        }
+    }
+    },
+
+    "skills.title": "Habilidades",
+    "skills.frontend": "Front-end",
+    "skills.backend": "Back-end",
+    "skills.tools": "Ferramentas & Conceitos",
+
+    "projects.title": "Projetos",
+    "projects.github": "GitHub",
+    "projects.demo": "Demo",
+
+    "contact.title": "Contato",
+    "contact.text": "Fique à vontade para entrar em contato comigo através de qualquer uma das plataformas abaixo.",
+
+    "nav.about": "Sobre",
+    "nav.skills": "Habilidades",
+    "nav.projects": "Projetos",
+    "nav.contact": "Contato",
+
+    "footer": {
+        "rights": "Todos os direitos reservados."
+    },
+
+    "projects": {
+    "title": "Projetos",
+
+    "thinkless": {
+      "description": "Sistema de controle de despesas pessoais com autenticação, cadastro de receitas e despesas e visualização de dados."
+    },
+
+    "pontus": {
+      "description": "Sistema de gestão de ponto utilizando NFC via smartphone, com backend em Node.js e exportação de registros."
+    }
+  }
+}

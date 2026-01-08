@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#b22234"/>
+
+  <!-- Listras brancas -->
+  <g fill="#fff">
+    <rect y="37" width="640" height="37"/>
+    <rect y="111" width="640" height="37"/>
+    <rect y="185" width="640" height="37"/>
+    <rect y="259" width="640" height="37"/>
+    <rect y="333" width="640" height="37"/>
+    <rect y="407" width="640" height="37"/>
+  </g>
+
+  <!-- Campo azul -->
+  <rect width="280" height="259" fill="#3c3b6e"/>
+
+  <!-- Estrelas simplificadas -->
+  <g fill="#fff">
+    <circle cx="30" cy="30" r="6"/>
+    <circle cx="70" cy="30" r="6"/>
+    <circle cx="110" cy="30" r="6"/>
+    <circle cx="150" cy="30" r="6"/>
+    <circle cx="190" cy="30" r="6"/>
+    <circle cx="230" cy="30" r="6"/>
+
+    <circle cx="50" cy="65" r="6"/>
+    <circle cx="90" cy="65" r="6"/>
+    <circle cx="130" cy="65" r="6"/>
+    <circle cx="170" cy="65" r="6"/>
+    <circle cx="210" cy="65" r="6"/>
+  </g>
+</svg>

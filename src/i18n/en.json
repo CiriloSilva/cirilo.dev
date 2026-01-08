@@ -1,0 +1,59 @@
+{
+    "hero.name": "Cirilo Silva",
+    "hero.title": "Full Stack Developer",
+    "hero.subtitle": "Building modern, accessible and well-structured digital solutions.",
+    "hero.projects": "View Projects",
+    "hero.github": "GitHub",
+
+    "about": {
+    "title": "About me",
+    "text": "I am an Information Systems student and Full Stack developer with experience in academic, institutional, and personal projects. I focus on building modern, accessible, and well-structured web applications, valuing clean code, organization, and a consistent user experience. I like to understand the problem before writing code, aiming for simple, scalable, and maintainable solutions.",
+    "highlights": {
+        "mindset": {
+        "title": "Mindset",
+        "text": "I value clean code, organization, and best practices over quick but unsustainable solutions."
+        },
+        "stack": {
+        "title": "Stack",
+        "text": "I have hands-on experience developing web applications using React and Node.js, as well as professional experience with PHP and Vue.js, working with REST APIs and relational databases, always focusing on clean, scalable, and well-structured code."
+        },
+        "goal": {
+        "title": "Goal",
+        "text": "Continuously grow as a developer and work on projects that generate real impact."
+        }
+    }
+    },
+
+    "skills.title": "Skills",
+    "skills.frontend": "Front-end",
+    "skills.backend": "Back-end",
+    "skills.tools": "Tools & Concepts",
+
+    "projects.title": "Projects",
+    "projects.github": "GitHub",
+    "projects.demo": "Demo",
+
+    "contact.title": "Contact",
+    "contact.text": "Feel free to reach out to me through any of the platforms below.",
+
+    "nav.about": "About",
+    "nav.skills": "Skills",
+    "nav.projects": "Projects",
+    "nav.contact": "Contact",
+
+    "footer": {
+        "rights": "All rights reserved."
+    },
+
+    "projects": {
+    "title": "Projects",
+
+    "thinkless": {
+      "description": "Personal expense control system with authentication, income and expense management, and data visualization."
+    },
+
+    "pontus": {
+      "description": "Time attendance management system using NFC via smartphone, with a Node.js backend and record export."
+    }
+  }
+}
