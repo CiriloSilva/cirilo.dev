@@ -9,6 +9,13 @@ Portfólio pessoal desenvolvido para apresentar projetos, habilidades técnicas 
 
 O objetivo deste projeto é servir tanto como **portfólio profissional** quanto como **base evolutiva**, permitindo futuras melhorias e expansões.
 
+**Live Demo / Produção**
+
+| Módulo    | URL                                              |
+|-----------|--------------------------------------------------|
+| Web | https://cirilo-dev.vercel.app/                 |
+
+
 ---
 
 ## Tecnologias Utilizadas
