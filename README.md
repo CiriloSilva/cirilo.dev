@@ -1,73 +1,130 @@
-# React + TypeScript + Vite
+# Portfólio - Cirilo Silva
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?logo=tailwindcss&logoColor=white)
 
-Currently, two official plugins are available:
+Portfólio pessoal desenvolvido para apresentar projetos, habilidades técnicas e informações profissionais de forma moderna, clara e objetiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo deste projeto é servir tanto como **portfólio profissional** quanto como **base evolutiva**, permitindo futuras melhorias e expansões.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+### Front-end
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Ferramentas
+- Vercel
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Funcionalidades
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Layout moderno e responsivo
+- Seção **Sobre mim** com foco profissional
+- Listagem organizada de **habilidades técnicas**
+- Exibição de **projetos reais** com links para GitHub e demo
+- Animações suaves para melhor experiência do usuário
+- Internacionalização (i18n)
+
+---
+
+## Estrutura do Projeto
+
+```bash
+src/
+├── components/      # Componentes reutilizáveis
+├── sections/        # Seções da página (Hero, About, Skills, Projects, Contact)
+├── data/            # Dados estáticos (skills, projects)
+├── utils/           # Utilitários (iconMap, helpers)
+├── hooks/           # Hooks customizados
+├── i18n/            # Configuração de internacionalização
+├── styles/          # Estilos globais
+└── main.tsx         # Entry point da aplicação
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como rodar o projeto localmente
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clone o repositório
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+        git clone https://github.com/CiriloSilva/portfolio.git
+
+2. Acesse a pasta do projeto
+
+        cd cirilo.dev
+
+3. Instale as dependências
+
+        npm install
+
+3. Rode o projeto
+
+        npm run dev
+
+A aplicação estará disponível em: http://localhost:5173
+
+## Deploy
+
+O projeto está preparado para deploy na **Vercel**, com build otimizado via Vite.
+
+# Próximos Passos (ideias futuras)
+```bash
+- Melhorias visuais e microinterações
+- SEO avançado
+- Otimização de performance
+- Versão light theme
+- Novos projetos e estudos de caso
 ```
+
+## Autor
+
+Projeto desenvolvido por **Cirilo Silva**  
+GitHub: https://github.com/CiriloSilva
+
+
+
+## 🇺🇸 English – Quick Overview
+
+Personal portfolio developed to showcase projects, technical skills, and professional information in a modern, clear, and objective way.
+
+This project serves both as a **professional portfolio** and an **evolving base**, allowing future improvements and expansions.
+
+## Technologies
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+## Features
+
+- Modern and responsive layout
+- About me section with professional focus
+- Organized technical skills section
+- Real projects with GitHub and demo links
+- Smooth animations
+- Internationalization (i18n)
+
+## Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Deploy
+
+Prepared for deployment on **Vercel**.
+
+## Author
+
+Cirilo Silva  
+https://github.com/CiriloSilva
