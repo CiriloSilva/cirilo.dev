@@ -1,4 +1,3 @@
-// src/hooks/useActiveSection.ts
 import { useEffect, useState } from 'react'
 
 type Section = {

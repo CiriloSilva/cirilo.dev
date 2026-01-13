@@ -6,13 +6,22 @@ export function Contact() {
   const { t } = useTranslation()
 
   return (
-    <section className="section-spacing bg-slate-950/40" id="contact">
+    <section
+      className="section-spacing bg-slate-950/40"
+      id="contact"
+    >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="max-w-4xl mx-auto text-center"
+        className="
+          mx-auto
+          max-w-4xl
+          px-4
+          sm:px-6
+          text-center
+        "
       >
         <h3 className="section-title mb-4">
           {t('contact.title')}
@@ -22,12 +31,29 @@ export function Contact() {
           {t('contact.text')}
         </p>
 
-        <div className="flex justify-center gap-6">
+        <div
+          className="
+            flex
+            flex-col
+            items-center
+            gap-4
+            sm:flex-row
+            sm:justify-center
+          "
+        >
           <a
             href="mailto:cirilo.dul@gmail.com"
-            className="px-6 py-3 rounded-lg border border-slate-800
-              hover:border-purple-400 hover:text-purple-400 transition
-              flex items-center gap-3"
+            className="
+              flex items-center gap-3
+              px-6 py-3
+              w-full sm:w-auto
+              justify-center
+              rounded-lg
+              border border-slate-800
+              hover:border-purple-400
+              hover:text-purple-400
+              transition
+            "
           >
             <FaEnvelope />
             Email
@@ -36,9 +62,17 @@ export function Contact() {
           <a
             href="https://github.com/CiriloSilva"
             target="_blank"
-            className="px-6 py-3 rounded-lg border border-slate-800
-              hover:border-purple-400 hover:text-purple-400 transition
-              flex items-center gap-3"
+            className="
+              flex items-center gap-3
+              px-6 py-3
+              w-full sm:w-auto
+              justify-center
+              rounded-lg
+              border border-slate-800
+              hover:border-purple-400
+              hover:text-purple-400
+              transition
+            "
           >
             <FaGithub />
             GitHub
@@ -47,9 +81,17 @@ export function Contact() {
           <a
             href="https://www.linkedin.com/in/cirilo-dulcesil"
             target="_blank"
-            className="px-6 py-3 rounded-lg border border-slate-800
-              hover:border-purple-400 hover:text-purple-400 transition
-              flex items-center gap-3"
+            className="
+              flex items-center gap-3
+              px-6 py-3
+              w-full sm:w-auto
+              justify-center
+              rounded-lg
+              border border-slate-800
+              hover:border-purple-400
+              hover:text-purple-400
+              transition
+            "
           >
             <FaLinkedin />
             LinkedIn

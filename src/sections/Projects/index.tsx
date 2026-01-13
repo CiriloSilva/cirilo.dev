@@ -7,7 +7,10 @@ export function Projects() {
   const { t } = useTranslation()
 
   return (
-    <section className="py-24 px-6 section-divider" id="projects">
+    <section
+      className="section-spacing section-divider"
+      id="projects"
+    >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -21,7 +24,10 @@ export function Projects() {
 
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map(project => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard
+              key={project.id}
+              project={project}
+            />
           ))}
         </div>
       </motion.div>

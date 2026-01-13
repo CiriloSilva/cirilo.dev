@@ -4,6 +4,8 @@ import { iconMap } from '../../utils/iconMap'
 import { useTranslation } from 'react-i18next'
 import { FaCode, FaServer, FaTools } from 'react-icons/fa'
 
+import type { IconType } from 'react-icons'
+
 type Skill = {
   name: string
   icon: keyof typeof iconMap
@@ -17,21 +19,28 @@ function SkillItem({ skill }: { skill: Skill }) {
       whileHover={{ y: -4 }}
       transition={{ type: 'spring', stiffness: 300, damping: 20 }}
       className="
-        flex items-center gap-3 px-4 py-3 rounded-lg
+        flex items-center gap-3
+        px-4 py-3
+        min-h-[48px]
+        rounded-lg
         bg-slate-800/60 border border-slate-700
         text-slate-200 cursor-default
         hover:border-purple-400/60
         hover:shadow-lg hover:shadow-purple-500/20
         transition-colors
+        text-sm
+
+        max-sm:justify-center
       "
     >
       {Icon && <Icon className="text-purple-400 text-xl" />}
-      <span className="text-sm font-medium">{skill.name}</span>
+      <span className="text-sm font-medium">
+        {skill.name}
+      </span>
     </motion.li>
   )
 }
 
-import type { IconType } from 'react-icons'
 
 function SkillGroup({
   title,
@@ -51,12 +60,23 @@ function SkillGroup({
       className="rounded-xl border border-slate-800 bg-slate-800/40 p-6"
     >
       <div className="flex flex-col md:flex-row gap-6">
-        <div className="md:w-40 flex items-center gap-3 text-purple-400">
-          <Icon className="text-xl shrink-0" />
-          <h4 className="text-lg font-semibold">{title}</h4>
+        {/* Coluna esquerda */}
+        <div className="md:w-40 flex items-center gap-3 text-purple-400 shrink-0">
+          <Icon className="text-xl" />
+          <h4 className="text-lg font-semibold">
+            {title}
+          </h4>
         </div>
 
-        <ul className="flex flex-1 flex-wrap gap-3">
+        {/* Skills */}
+        <ul
+          className="
+            flex flex-wrap gap-3 flex-1
+
+            max-sm:grid
+            max-sm:grid-cols-2
+          "
+        >
           {items.map(skill => (
             <SkillItem key={skill.name} skill={skill} />
           ))}
@@ -65,6 +85,7 @@ function SkillGroup({
     </motion.div>
   )
 }
+
 
 export function Skills() {
   const { t } = useTranslation()
